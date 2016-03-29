@@ -24,8 +24,8 @@ public class PTBRSteps {
 
     @Quando("^Eu espero (\\d+) hora$")
     public void i_wait_hour(int waitingTime) throws Throwable {
-        //this.waitingTime = waitingTime;
-        5
+        this.waitingTime = 5;
+        
     }
 
     @Entao("^Minha barriga deve (.*)$")
