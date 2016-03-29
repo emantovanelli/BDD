@@ -24,7 +24,8 @@ public class PTBRSteps {
 
     @Quando("^Eu espero (\\d+) hora$")
     public void i_wait_hour(int waitingTime) throws Throwable {
-        this.waitingTime = 5;
+        // this.waitingTime = 5;
+        int a = 5;
         
     }
 
